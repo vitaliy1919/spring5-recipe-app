@@ -14,4 +14,9 @@ public class Note {
 
     @Lob
     private String notes;
+
+    public Note(Recipe recipe, String notes) {
+        this.recipe = recipe;
+        this.notes = notes;
+    }
 }

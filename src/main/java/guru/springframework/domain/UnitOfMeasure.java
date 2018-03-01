@@ -13,5 +13,7 @@ public class UnitOfMeasure {
 
     private String uom;
 
-
+    public UnitOfMeasure(String uom) {
+        this.uom = uom;
+    }
 }
